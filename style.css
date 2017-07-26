@@ -1,0 +1,41 @@
+p {
+  margin: 0px 0px 0px 20px;
+  font-family: 'Montserrat';
+  font-size: 1.93em;
+  font-weight: normal;
+}
+
+text {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bar {
+  fill:  #0072c8;
+}
+
+.bar:hover {
+  fill: #968C83;
+}
+
+.y path, .y stroke, .y line {
+  display: none;
+}
+
+.x path, .x stroke {
+  display: none;
+  shape-rendering: crispEdges;
+}
+
+.y text {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  text-anchor: middle;
+}
+
+.x text {
+  font-family: 'Open Sans';
+  font-size: 10px;
+  text-anchor: middle;
+}
